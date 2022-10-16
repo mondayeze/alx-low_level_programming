@@ -6,7 +6,7 @@
 /**
  * main - entry point
  *
- * Description:prints if a number is positive or negative.
+ * Description: prints if a number is positive or negative.
  * Return: 0
  */
 
