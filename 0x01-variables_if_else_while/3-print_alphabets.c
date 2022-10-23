@@ -9,16 +9,14 @@ int main(void)
 {
 	int ch;
 
-	for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch= 'a';ch<= 'z'; ch++)
 	{
-		if (ch != 'e' && ch != 'q')
-		{
-			putchar(ch);
-		}
-		for (ch = 'A'; ch <= 'Z'; ch++)
-		{
-			putchar(ch);
-		}
-        	putchar('\n');
-        	return (0);
+		putchar(ch);
+	}	
+	for (ch= 'A';ch<= 'Z'; ch++)
+	{
+		putchar(ch);
+	}
+       	putchar('\n');
+       	return (0);
 }
