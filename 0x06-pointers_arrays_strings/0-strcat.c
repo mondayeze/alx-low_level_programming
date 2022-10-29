@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	int j;
 
 	i = 0;
-	j = 0;
+	j = 98;
 
 	while (dest[i] != '\0')
 	{
